@@ -9,7 +9,7 @@
 ## Sobre o desafio
 
 Este desafio foi solucionado durante o programa Acelera ZG 5.0 - Transformando estudantes em verdadeiros desenvolvedores!
-Consiste na elaboração de uma música a partir de um algorítimo Java para reproduzir as letras automaticamente e generalizando o máximo possível as partes repetitivas.
+Consiste na elaboração da música "Erguei as Mãos" de Marcelo Rossi a partir de um algorítimo Java para reproduzir as letras automaticamente e generalizando o máximo possível as partes repetitivas.
 
 ![channels4_profile](https://github.com/Dev-JeanCharles/Challenge_Acelera/assets/85767415/13e294d8-56ca-4dca-ac2f-e87076c94bb0)
 
