@@ -17,20 +17,24 @@ public class ParteUm {
         }
     }
 
-    public static void buscarAnimal(String path) throws InterruptedException {
+    public static void buscarAnimal(String path) {
         String animal[] = {"O Elefante", "Os Passarinhos", "A Minhoquinha", "Os Pinguins", "O Canguru", "O Sapinho"};
 
-        for (int a = 0; a < animal.length; a++) {
-            ParteUm.lerArquivo(path);
-            String verso[] = {
-                    animal[a],
-                    animal[a + 1] + ", como os filhos do Senhor"
-            };
-            a = a + 1;
-            for (int i = 0; i < verso.length; i++) {
-                Thread.sleep(1000);
-                System.out.println(verso[i]);
+        try {
+            for (int a = 0; a < animal.length; a++) {
+                ParteUm.lerArquivo(path);
+                String verso[] = {
+                        animal[a],
+                        animal[a + 1] + ", como os filhos do Senhor"
+                };
+                a = a + 1;
+                for (int i = 0; i < verso.length; i++) {
+                    Thread.sleep(1000);
+                    System.out.println(verso[i]);
+                }
             }
+        } catch (Exception e) {
+            System.out.println("Erro: " + e.getMessage());
         }
     }
     public static void triplicarSolo(String path){

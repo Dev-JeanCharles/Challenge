@@ -2,7 +2,7 @@ import PartesdaMusica.ParteDois;
 import PartesdaMusica.ParteUm;
 
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
         String path_solo = "src/arquivo/solo.txt";
         String path_repeticao = "src/arquivo/repeticao.txt";
