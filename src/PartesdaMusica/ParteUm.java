@@ -18,15 +18,12 @@ public class ParteUm {
     }
 
     public static void buscarAnimal(String path) {
-        String animal[] = {"O Elefante", "Os Passarinhos", "A Minhoquinha", "Os Pinguins", "O Canguru", "O Sapinho"};
+        String animal[] = {"O Elefante", "E os Passarinhos", "A Minhoquinha", "E os Pinguins", "O Canguru", "E o Sapinho"};
 
         try {
             for (int a = 0; a < animal.length; a++) {
                 ParteUm.lerArquivo(path);
-                String verso[] = {
-                        animal[a],
-                        animal[a + 1] + ", como os filhos do Senhor"
-                };
+                String verso[] = {animal[a],animal[a + 1] + ", como os filhos do Senhor"};
                 a = a + 1;
                 for (int i = 0; i < verso.length; i++) {
                     Thread.sleep(1000);
