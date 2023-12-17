@@ -14,8 +14,8 @@ public class ParteDois {
                 " e abraça o irmão"
         };
         StringBuilder corpo = new StringBuilder();
-        for(int i = 0; i < partes_corpo_total.length; i++){
-            corpo.append(partes_corpo_total[i]);
+        for (String s : partes_corpo_total) {
+            corpo.append(s);
             ParteUm.lerArquivo(path);
             System.out.println(corpo);
         }
